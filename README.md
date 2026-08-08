@@ -58,6 +58,7 @@ After a run, view the HTML report:
 ```bash
 npm run report
 ```
+or visit the live dashboard on telemetry data - https://kanus7.github.io/saucedemo-playwright/ 
 
 ## Project structure
 
