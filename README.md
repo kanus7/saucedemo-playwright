@@ -90,6 +90,7 @@ saucedemo-playwright/
 - **URL assertions use partial regex matches** (`toHaveURL(/inventory.html/)`) rather than full exact-string matches, so they don't break on incidental differences like a trailing slash or query parameter that don't actually indicate a bug.
 - **CI is configured to capture failures, not hide them** — `continue-on-error: true` on the test step means a failing run still gets recorded and published to the dashboard, rather than the whole pipeline just going red with no history of what actually broke.
 - **Dead code is removed on sight** — an unused locator-builder method was deleted from `InventoryPage.ts` once confirmed (via a project-wide search) that nothing called it, rather than left in "in case it's useful later."
+- **Established CI Pipeline**- added a GitHub Actions workflow to run the suite on every pull request, publish the HTML report as an artifact, and fail the build on regression. See the Telemetry for E2E test suite on the Live Dashboard- https://kanus7.github.io/saucedemo-playwright/. The e2e.yml has the cron job schedule running once a day. 
 
 ## Things To Do with more time
 
@@ -98,8 +99,8 @@ saucedemo-playwright/
 - **API-level setup** - currently all state (cart, login) is built through the UI. For a larger suite, seeding cart state via direct API/localStorage manipulation where the API supports it would cut execution time significantly and isolate UI tests from unrelated flows.
 - **Data-driven test expansion** - parameterise the checkout and sorting tests to run against all product combinations rather than the first item / default state. 
 - **Accessibility checks** - integrate `@axe-core/playwright` for automated WCAG checks on key pages (login, inventory, checkout), given how central accessibility compliance is to good UX.
-**Tenets & Traps** - to run thorough UI/UX tests that capture the 'Tenets' (Good UI techniques) and uncover 'Traps' (Bad UI practices) to improve user experience.
-- **Establish CI pipeline** — add a GitHub Actions workflow to run the suite on every PR, publish the HTML report as an artifact, and fail the build on regression.
+- **Tenets & Traps** - to run thorough UI/UX tests that capture the 'Tenets' (Good UI techniques) and uncover 'Traps' (Bad UI practices) to improve user experience.
+- **Update CI pipeline** — Next step would be triggering on pull requests too, once there's a second contributor to actually review changes against, and failing the build specifically on a *regression* (a newly-broken test) rather than on any failure, since a known/expected failure shouldn't necessarily block a merge the same way a new one should.
 - **Perform Negative/edge-case testing on checkout data** — special characters, very long strings, and non-UK postal code formats in the checkout form etc.
 - **Removing items from the inventory page itself** (not just the cart page) — SauceDemo allows "Remove" directly from the product listing after adding an item; this is a separate interaction path worth covering.
 
