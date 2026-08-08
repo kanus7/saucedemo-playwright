@@ -1,0 +1,202 @@
+{
+  "id": "run-1786193368795",
+  "timestamp": 1786193368795,
+  "label": "Run — 3f365c80e0f123254e84ee681f0132f733b4470d",
+  "tests": [
+    {
+      "title": "cart.spec.ts > Cart > adding an item updates the cart badge count",
+      "status": "passed",
+      "duration": 646
+    },
+    {
+      "title": "cart.spec.ts > Cart > adding multiple items keeps the badge count accurate",
+      "status": "passed",
+      "duration": 570
+    },
+    {
+      "title": "cart.spec.ts > Cart > removing an item from the cart updates the count and list",
+      "status": "passed",
+      "duration": 521
+    },
+    {
+      "title": "cart.spec.ts > Cart > adding an item updates the cart badge count",
+      "status": "passed",
+      "duration": 1843
+    },
+    {
+      "title": "cart.spec.ts > Cart > adding multiple items keeps the badge count accurate",
+      "status": "passed",
+      "duration": 929
+    },
+    {
+      "title": "cart.spec.ts > Cart > removing an item from the cart updates the count and list",
+      "status": "passed",
+      "duration": 855
+    },
+    {
+      "title": "cart.spec.ts > Cart > adding an item updates the cart badge count",
+      "status": "passed",
+      "duration": 8370
+    },
+    {
+      "title": "cart.spec.ts > Cart > adding multiple items keeps the badge count accurate",
+      "status": "passed",
+      "duration": 1205
+    },
+    {
+      "title": "cart.spec.ts > Cart > removing an item from the cart updates the count and list",
+      "status": "passed",
+      "duration": 1148
+    },
+    {
+      "title": "checkout.spec.ts > Checkout > user can complete a purchase end to end with valid details",
+      "status": "passed",
+      "duration": 625
+    },
+    {
+      "title": "checkout.spec.ts > Checkout > checkout blocks progress when required fields are missing",
+      "status": "passed",
+      "duration": 567
+    },
+    {
+      "title": "checkout.spec.ts > Checkout > order total on the overview reflects item price plus tax",
+      "status": "passed",
+      "duration": 567
+    },
+    {
+      "title": "checkout.spec.ts > Checkout > user can complete a purchase end to end with valid details",
+      "status": "passed",
+      "duration": 1010
+    },
+    {
+      "title": "checkout.spec.ts > Checkout > checkout blocks progress when required fields are missing",
+      "status": "passed",
+      "duration": 869
+    },
+    {
+      "title": "checkout.spec.ts > Checkout > order total on the overview reflects item price plus tax",
+      "status": "passed",
+      "duration": 959
+    },
+    {
+      "title": "checkout.spec.ts > Checkout > user can complete a purchase end to end with valid details",
+      "status": "passed",
+      "duration": 1321
+    },
+    {
+      "title": "checkout.spec.ts > Checkout > checkout blocks progress when required fields are missing",
+      "status": "passed",
+      "duration": 1214
+    },
+    {
+      "title": "checkout.spec.ts > Checkout > order total on the overview reflects item price plus tax",
+      "status": "passed",
+      "duration": 1321
+    },
+    {
+      "title": "login.spec.ts > Login > standard user can log in with valid credentials",
+      "status": "passed",
+      "duration": 454
+    },
+    {
+      "title": "login.spec.ts > Login > locked out user is blocked with a clear error message",
+      "status": "passed",
+      "duration": 364
+    },
+    {
+      "title": "login.spec.ts > Login > invalid password shows an error and does not log in",
+      "status": "passed",
+      "duration": 369
+    },
+    {
+      "title": "login.spec.ts > Login > submitting empty credentials shows a required-field error",
+      "status": "passed",
+      "duration": 317
+    },
+    {
+      "title": "login.spec.ts > Login > standard user can log in with valid credentials",
+      "status": "passed",
+      "duration": 711
+    },
+    {
+      "title": "login.spec.ts > Login > locked out user is blocked with a clear error message",
+      "status": "passed",
+      "duration": 721
+    },
+    {
+      "title": "login.spec.ts > Login > invalid password shows an error and does not log in",
+      "status": "passed",
+      "duration": 712
+    },
+    {
+      "title": "login.spec.ts > Login > submitting empty credentials shows a required-field error",
+      "status": "passed",
+      "duration": 1695
+    },
+    {
+      "title": "login.spec.ts > Login > standard user can log in with valid credentials",
+      "status": "passed",
+      "duration": 1003
+    },
+    {
+      "title": "login.spec.ts > Login > locked out user is blocked with a clear error message",
+      "status": "passed",
+      "duration": 899
+    },
+    {
+      "title": "login.spec.ts > Login > invalid password shows an error and does not log in",
+      "status": "passed",
+      "duration": 857
+    },
+    {
+      "title": "login.spec.ts > Login > submitting empty credentials shows a required-field error",
+      "status": "passed",
+      "duration": 810
+    },
+    {
+      "title": "sorting.spec.ts > Product sorting > sorting price low to high orders items correctly",
+      "status": "passed",
+      "duration": 494
+    },
+    {
+      "title": "sorting.spec.ts > Product sorting > sorting price high to low orders items correctly",
+      "status": "passed",
+      "duration": 504
+    },
+    {
+      "title": "sorting.spec.ts > Product sorting > sorting name A to Z orders items alphabetically",
+      "status": "passed",
+      "duration": 495
+    },
+    {
+      "title": "sorting.spec.ts > Product sorting > sorting price low to high orders items correctly",
+      "status": "passed",
+      "duration": 1011
+    },
+    {
+      "title": "sorting.spec.ts > Product sorting > sorting price high to low orders items correctly",
+      "status": "passed",
+      "duration": 745
+    },
+    {
+      "title": "sorting.spec.ts > Product sorting > sorting name A to Z orders items alphabetically",
+      "status": "passed",
+      "duration": 765
+    },
+    {
+      "title": "sorting.spec.ts > Product sorting > sorting price low to high orders items correctly",
+      "status": "passed",
+      "duration": 1125
+    },
+    {
+      "title": "sorting.spec.ts > Product sorting > sorting price high to low orders items correctly",
+      "status": "passed",
+      "duration": 1182
+    },
+    {
+      "title": "sorting.spec.ts > Product sorting > sorting name A to Z orders items alphabetically",
+      "status": "passed",
+      "duration": 1146
+    }
+  ]
+}
